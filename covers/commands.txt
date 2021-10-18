@@ -1,0 +1,191 @@
+    1  more
+    2  less
+    3  less --help
+    4  head
+    5  cat
+    6  cd ~/Documents
+    7  ls -a
+    8  ls
+    9  grep Java
+   10  wget https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv
+   11  `curl https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv -o Prenoms.csv`
+   12  ls
+   13  cd Prenoms.csv
+   14  head
+   15  head -n
+   16  head Prenoms.csv
+   17  grep "f;french" < Prenoms.csv | wc -l
+   18  grep my file.txt
+   19  cat > bonjour.sh
+   20  read var1
+   21  mkdir Day00
+   22  ls
+   23  cd Day00
+   24  touch commands.txt
+   25  ls
+   26  cd ~
+   27  ls
+   28  cd Downloads
+   29  ls
+   30  cd ~
+   31  cd Documents/Day00
+   32  unzip covers-20211018T073750Z-001.zip
+   33  rm covers.zip
+   34  cd covers
+   35  mkdir Constructeurs
+   36  cd Constructeurs
+   37  mkdir Sony Nintendo Microsoft Sega
+   38  cd Sony
+   39  mkdir Consoles
+   40  cd Consoles
+   41  mkdir PS4 PS5
+   42  cd PS4
+   43  mkdir fifa14 Uncharted
+   44  cd ../
+   45  cd PS5
+   46  mkdir FarCry6
+   47  cd ../
+   48  ls
+   49  cd ../
+   50  ls
+   51  mkdir Consoles Portables
+   52  cd ../
+   53  cd Nintendo
+   54  mkdir Consoles Consoles_portables
+   55  cd Consoles
+   56  mkdir Gamecube
+   57  cd Gamecube
+   58  mkdir Super_Mario_Sunshine
+   59  cd ../
+   60  cd ../
+   61  cd Consoles_portables
+   62  mkdir Game_Boy
+   63  cd Game_Boy
+   64  mkdir pokémon_blue pokémon_red
+   65  cd ../
+   66  cd ../
+   67  cd ../
+   68  cd Microsoft
+   69  mkdir Consoles
+   70  cd Consoles
+   71  mkdir Xbox Xbox360
+   72  cd Xbox
+   73  mkdir Dead_to_Rights Halo_Combat_Evolved
+   74  cd ../
+   75  cd Xbox360
+   76  mkdir Call_of_Duty_4 Call_of_Duty_5 
+   77  cd../
+   78  cd ../
+   79  cd ../
+   80  cd../
+   81  cd../
+   82  cd ../
+   83  cd Sega
+   84  mkdir Consoles
+   85  cd Consoles
+   86  mkdir Dreamcast
+   87  cd Dreamcast
+   88  mkdir Jet_Set_Radio Shenmue
+   89  cd ~/Documents
+   90  ls
+   91  cd Day00
+   92  cd covers
+   93  mv dc_jetgrindradio_10.jpg Constructeurs/Sega/Consoles/Dreamcast
+   94  mv dc_jetsetradio_eu_front.jpg Constructeurs/Sega/Consoles/Dreamcast
+   95  mv dc_shenmue_eu.jpg dc_shenmueii_5.jpg Constructeurs/Sega/Consoles/Dreamcast/Shenmue
+   96  cd ../
+   97  cd ../
+   98  ls
+   99  cd Day00
+  100  cd covers
+  101  mv gameboy.pokmonred.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy/pokémon_red
+  102  cd ../
+  103  cd covers
+  104  mv gb_pokemonblue_eu.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy/pokémon_blue
+  105  mv gc_supermariosunshine.jpg Constructeurs/Nintendo/Consoles/Gamecube/Super_Mario_Sunshine
+  106  cd../
+  107  cd Constructeurs/Nintendo/Consoles_portables/Game_Boy
+  108  mkdir pokémon_green pokémon_yellow pokémon_gold
+  109  cd ../
+  110  cd ../
+  111  cd ../
+  112  cd ../
+  113  mv gb_pokemongreen_3.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy/pokémon_green
+  114  cd ..:
+  115  cd ../
+  116  cd covers
+  117  mv gb_pokemonyellow_au.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy/pokémon_yellow
+  118  cd ../
+  119  cd covers
+  120  mv gbc_pokemongold.jpg Constructeurs/Nintendo/Consoles_portables/Game_Boy/pokémon_gold
+  121  cd ../
+  122  cd covers
+  123  cd Constructeurs/Nintendo/Consoles/Gamecube
+  124  mkdir Mario kart double dash
+  125  cd ../
+  126  cd ../
+  127  cd../
+  128  cd ../
+  129  cd ../
+  130  mv gc_mariokartdoubledash.jpg Constructeurs/Nintendo/Consoles/Gamecube/Mario_Kart_Double_dash
+  131  cd Constructeurs/Sony/Consoles/PS4
+  132  mkdir Assassin's_Creed\n\n\n\n
+  133  mkdir Assassins_Creed
+  134  cd ../
+  135  cd ../
+  136  cd ../
+  137  cd ../
+  138  mv playstation_4.assassinscreedodyssey.jpg Constructeurs/Sony/Consoles/PS4/Assassins_Creed
+  139  cd ../
+  140  cd coovers
+  141  cd covers
+  142  mv playstation_4.unchartedthelostlegacy.jpg Constructeurs/Sony/Consoles/PS4/Uncharted
+  143  cd ../
+  144  cd covers
+  145  mv playstation_4.watchdogs2.jpg Constructeurs/Sony/Consoles/PS4/Watch_Dog
+  146  cd ../
+  147  cd covers
+  148  cd constructeurs
+  149  cd sony
+  150  cd consoles
+  151  cd ps5
+  152  pwd
+  153  cd ..
+  154  cd ..
+  155  cd ..
+  156  cd ..
+  157  mv playstation_5.assassinscreedvalhalla.jpg /Users/admin/Documents/Day00/covers/constructeurs/sony/consoles/ps5
+  158  mv playstation_5.farcry6.jpg /Users/admin/Documents/Day00/covers/constructeurs/sony/consoles/ps5
+  159  mv playstation_5.residentevilvillage_.jpg /Users/admin/Documents/Day00/covers/constructeurs/sony/consoles/ps5
+  160  mv ps4_fifa14.jpg Constructeurs/Sony/Consoles/PS4/fifa14
+  161  mv x360_callfoduty3.jpg Constructeurs/Microsoft/Consoles/Xbox360/Call_of_Duty_3
+  162  mv x360_callofduty2.jpg Constructeurs/Microsoft/Consoles/Xbox360/Call_of_Duty_2
+  163  mv x360_callofduty4.jpg Constructeurs/Microsoft/Consoles/Xbox360/Call_of_Duty_4
+  164  mv x360_callofdutyblackopsii.jpg Constructeurs/Microsoft/Consoles/Xbox360/Call_of_Duty_Black_Ops
+  165  cd Constructeurs/Microsoft/Consoles/Xbox360
+  166  mkdir Fable
+  167  cd ../
+  168  cd Xbox
+  169  mkdir Dead_Or_Alive
+  170  mkdir Def_Jam_Fight_Forny
+  171  cd ..
+  172  cd ..
+  173  cd ..
+  174  cd ..
+  175  mv xbox_360.fableiii.jpg Constructeurs/Microsoft/Consoles/Xbox360/Fable
+  176  cd ../
+  177  cd covers
+  178  mv xbox_deadoralive3.jpg Constructeurs/Microsoft/Consoles/Xbox/Dead_Or_Alive
+  179  mv xbox_deadtorights.jpg Constructeurs/Microsoft/Consoles/Xbox/Dead_to_Rights
+  180  mv xbox_defjamfightforny.jpg Constructeurs/Microsoft/Consoles/Xbox/Def_Jam_Fight_Forny
+  181  mv xbox_halo_2.jpg xbox_halo2.jpg Constructeurs/Microsoft/Consoles/Xbox/Halo_2
+  182  cd Constructeurs/Microsoft/Consoles/Xbox/
+  183  mkdir Jet_Set_radio_future Need_For_Speed
+  184  cd ../
+  185  cd ../
+  186  cd ..:
+  187  cd ..
+  188  cd..
+  189  cd ..
+  190  mv xbox_needforspeedunderground2.jpg Constructeurs/Microsoft/Consoles/Xbox/Need_For_Speed
+  191  mv xbox_jetsetradiofuture_2.jpg Constructeurs/Microsoft/Consoles/Xbox/Jet_Set_radio_future
