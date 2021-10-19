@@ -1,0 +1,3 @@
+
+sed '$d' deposition_Joe_Rugiani.txt | sed '$d' > provisary.txt
+cat provisary.txt > deposition_Joe_Rugiani.txt
