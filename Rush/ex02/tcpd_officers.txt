@@ -1,2 +1,6 @@
 Cameron,Officer,8
 Preston,Officer,6
+
+Commande :
+
+grep Officer tcpd_department.csv > text.txt

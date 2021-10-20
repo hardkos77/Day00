@@ -1,1 +1,5 @@
 Cameron,Officer,8
+
+Commande :
+
+grep 8 tcpd_officers.txt > tcpd_expert_officer.txt

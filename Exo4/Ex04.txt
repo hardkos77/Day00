@@ -1,2 +1,0 @@
-Cat > print_groups.sh
-Groups | tr " " ","
