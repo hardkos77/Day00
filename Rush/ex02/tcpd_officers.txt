@@ -3,4 +3,4 @@ Preston,Officer,6
 
 Commande :
 
-grep Officer tcpd_department.csv > text.txt
+grep Officer tcpd_department.csv > tcpd.officers.txt
