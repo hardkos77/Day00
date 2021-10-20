@@ -1,0 +1,67 @@
+   
+  498  cd IT\ Akademy/Piscine\ Git/Day00/Rush/
+  499  cd ex03/Murder_in_terminal_city/mystery/
+  500  grep CLUE crimescene 
+  501  grep Annabel people 
+  502  cd interviews/
+  503  grep annabel 
+  504  grep annabel *
+  505  grep Church *
+  506  cd ..
+  507  cd memberships/
+  508  grep Church *
+  509  grep Sun *
+  510  cd ..
+  511  cd interviews/
+  512  cat interview-699607
+  513  cd ..
+  514  grep Honda vehicles 
+  515  grep blue Honda vehicles 
+  516  grep -A2 "blue Honda" vehicles 
+  517  grep -B5 L337 vehicles 
+  518  grep "blue Honda" vehicles 
+  519  grep honda vehicles 
+  520  grep Honda vehicles 
+  521  grep "blue Honda" vehicles 
+  522  grep -B5 L337 vehicles 
+  523  cat vehicles 
+  524  grep -B1 -A4 vehicles 
+  525  grep -B1 -A4 Honda vehicles 
+  526  grep -B1 -A4 Honda vehicles > vehtemp.txt
+  527  grep blue vehtemp.txt 
+  528  grep blue vehtemp.txt > color.txt
+  529* grep L337 > color.txt
+  530  grep -B1 -A4 Blue vehtemp.txt > color.txt 
+  531  grep -B2 -A3 Blue vehtemp.txt > color.txt 
+  532* grep -A5 6 color.txt > resultFinal.txt 
+  533  grep -B4 -A1 "Height: 6" resultCar.txt > final.txt
+  534  cd interviews/
+  535  grep Owens *
+  536  cat Owens *
+  537  grep Owens *
+  538  grep Germuska *
+  539  grep Bowers *
+  540  grep Maher *
+  541  cd ..
+  542  cd memberships/
+  543  grep Germuska AAA
+  544  grep Germuska Costco
+  545  grep Germuska Delta_SkyMiles 
+  546  grep Germuska Terminal_City_Library 
+  547  grep Germuska Terminal_City_Library 
+  548  grep Germuska Museum_of_Bash_History 
+  549  grep Bowers AAA
+  550  grep Bowers Delta_SkyMiles 
+  551  grep Bowers Terminal_City_Library 
+  552  grep Bowers Museum_of_Bash_History 
+  553  cd ..
+  554  cd streets/
+  555  grep Germuska
+  556  grep Germuska *
+  557  grep Bowers *
+  558  cd ..
+  559  grep Germuska people 
+  560  grep Bowers people 
+  561  history
+  562  history commands.txt
+  563  history > commands.txt

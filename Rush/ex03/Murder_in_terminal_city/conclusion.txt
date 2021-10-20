@@ -1,0 +1,107 @@
+Il y a eu un meurtre à Terminal City, et la TCPD a besoin de votre aide.
+
+Pour découvrir le coupable, rendez-vous dans le sous-répertoire "mystery" et commencez à travailler à partir de là.
+
+Commencez par rassembler tous les indices sur la scène du crime (le fichier "crimescene").
+
+Les officiers présents sur la scène du crime sont assez méticuleux, ils ont donc TOUT noté dans leur rapport.
+
+Heureusement, le sergent est passé par là et a marqué les vrais indices avec le mot "CLUE" en majuscules.
+
+Si vous êtes bloqué, ouvrez un des fichiers d'indices (à partir du CL, tapez 'cat hint1', 'cat hint2', etc.).
+
+Pour apprendre à utiliser la ligne de commande, ouvrez cheatsheet.md ou cheatsheet.pdf (à partir de la ligne de commande, vous pouvez taper 'nano cheatsheet.md').
+
+N'utilisez pas d'éditeur de texte pour consulter d'autres fichiers que ces instructions, le cheatsheet et les conseils.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
+
+
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+Result : homme grand 1,80m proche d’un ATM
+Result : une fille qui s’appelle Annabel, blonde avec des pics, accent néo zélandais
+Result : de la monnaie et des cartes de membre pour AAA, Delta SkyMiles, la bibliothèque locale et le Musée de l'Histoire du Bash
+
+
+Result Annabel : 
+
+Annabel Sun	F	26	Hart Place, line 40
+Annabel Church	F	38	Buckingham Place, line 179
+
+AAA:Annabel Church
+AAdvantage:Annabel Church
+Fitness_Galaxy:Annabel Church
+Museum_of_Bash_History:Annabel Church
+REI:Annabel Church
+Rotary_Club:Annabel Church
+
+interview-699607:Interviewed Ms. Church at 2:04 pm.  
+Le témoin a déclaré qu'elle n'a vu personne qu'elle pourrait identifier comme le tireur, qu'elle s'est enfuie dès que les coups de feu ont été tirés.
+Cependant, elle rapporte avoir vu la voiture qui a fui la scène.  Elle la décrit comme une Honda bleue, avec une plaque d'immatriculation commençant par "L337" et finissant par "9 
+
+Résultat du filtrage par grep (marque, couleur, taille) :
+
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+Interview :
+
+interview-5455315: Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.  Multiple sources, including a person in a fox costume, corroborate this.  Not a suspect.
+
+interview-904020:Maher is not considered a suspect.  Video evidence confirms that she was away at a professional soccer game on the morning in question, even though it was a workday.
+
+Les interviews nous montrent que 2 des 4 suspects ont chacun un alibi. Il nous reste 2 suspects :
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+Joe Germuska	M	65	Plainfield Street, line 275
+
+Possède : carte AAA et carte Terminal City Library.
+
+--
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+Jeremy Bowers	M	34	Dunstable Road, line 284
+
+Possède : est enregistré sur toutes les cartes trouvées.
+
+
+Le coupable est donc Jeremy Bowers
